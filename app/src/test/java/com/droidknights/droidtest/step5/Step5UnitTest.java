@@ -18,10 +18,18 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class Step5UnitTest {
     private ViewModel viewModel = new Step5ViewModel();
 
-    @Test public void plusTest() {
-        TestObserver<Response<String>> testObserver = TestObserver.create();
+    /**
+     * 테스트에서 사용하는
+     * TestObserver = Observable , Single , Maybe , Completable 에서 사용된다.
+     * TestSubscriber = Flowable 에서 사용된다.
+     *
+     *
+     */
 
-        ((Step5ViewModel) viewModel).getHttpStream().subscribe(testObserver);
+    @Test public void plusTest() {
+        TestObserver<Response<String>> testObserver = TestObserver.create();   // 테스트 옵저버 생성.
+
+        ((Step5ViewModel) viewModel).getHttpStream().subscribe(testObserver);  // 테스트 옵저버 구독
 
         viewModel.calculate("1+1");
 

@@ -8,7 +8,9 @@ import android.widget.TextView;
 import com.droidknights.droidtest.Calculator;
 import com.droidknights.droidtest.R;
 
+import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
+import retrofit2.Response;
 
 public class Step4Activity extends AppCompatActivity {
     private TextView editText;

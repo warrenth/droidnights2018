@@ -9,6 +9,8 @@ import retrofit2.Response;
 
 public class Step5ViewModel implements ViewModel {
 
+    // 이녀석이 궁금하다!!!
+
     private Relay<Response<String>> httpStream = PublishRelay.create();
 
     private Calculator calculator = new Step5CalculatorImpl();

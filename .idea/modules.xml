@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DroidTest.iml" filepath="$PROJECT_DIR$/DroidTest.iml" />
+      <module fileurl="file://D:\AndroidStudy\droidnights2018_test\DroidTest.iml" filepath="D:\AndroidStudy\droidnights2018_test\DroidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/droidnights2018.iml" filepath="$PROJECT_DIR$/droidnights2018.iml" />
+      <module fileurl="file://D:\AndroidStudy\droidnights2018_test\app\app.iml" filepath="D:\AndroidStudy\droidnights2018_test\app\app.iml" />
+      <module fileurl="file://D:\AndroidStudy\droidnights2018_test\droidnights2018.iml" filepath="D:\AndroidStudy\droidnights2018_test\droidnights2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/droidnights2018_test.iml" filepath="$PROJECT_DIR$/droidnights2018_test.iml" />
     </modules>
   </component>
 </project>

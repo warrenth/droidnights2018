@@ -16,6 +16,7 @@ public class Step5Activity extends AppCompatActivity {
 
     private CompositeDisposable disposable = new CompositeDisposable();
 
+    //Presenter랑 비슷하네...
     private ViewModel viewModel = new Step5ViewModel();
 
     @Override
